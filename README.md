@@ -22,8 +22,14 @@ Install vagrant
 
 Add a base box to your system
 
-    $ vagrant box add Ubuntu-11.10 http://timhuegdon.com/vagrant-boxes/ubuntu-11.10.box
+    $ vagrant box add <local_box_name> http://timhuegdon.com/vagrant-boxes/ubuntu-11.10.box
 
 List the available local boxes
 
     $ vagrant box list
+    
+## Exercise 3
+
+Initialize your vagrant project with the correct base box
+
+    $ vagrant init [local_box_name]
