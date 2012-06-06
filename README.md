@@ -83,3 +83,9 @@ Confirm if apache is still available
 Reload your VM
 
     $ vagrant reload
+
+## Exercise 7
+
+Reload your VM
+
+    $ vagrant reload
