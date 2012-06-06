@@ -17,7 +17,7 @@ The directories in this tutorial repository represent a standard structure for c
 Install vagrant
 
     $ sudo gem install vagrant
-    
+
 ## Exercise 2
 
 Add a base box to your system
@@ -27,15 +27,53 @@ Add a base box to your system
 List the available local boxes
 
     $ vagrant box list
-    
+
 ## Exercise 3
 
 Initialize your vagrant project with the correct base box
 
     $ vagrant init [local_box_name]
-    
+
 ## Exercise 4
 
 Start your VM
 
     $ vagrant up
+
+## Exercise 5
+
+Pause your VM
+
+    $ vagrant suspend
+
+Start your VM
+
+    $ vagrant resume
+
+Connect to your VM with SSH
+
+    $ vagrant ssh
+
+Manually install apache on your VM
+
+    $ sudo apt-get install apache2
+
+Log out of your VM
+
+    $ exit
+
+Access the default apache site in your hosts browser
+
+    http://192.168.33.10
+
+Destroy your VM
+
+    $ vagrant up
+
+Create your VM again
+
+    $ vagrant up
+
+Confirm if apache is still available
+
+    http://192.168.33.10
