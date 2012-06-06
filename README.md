@@ -96,3 +96,12 @@ Provision your VM
 
     $ vagrant provision
 
+## Exercise 9
+
+Destroy your VM
+
+    $ vagrant destroy
+
+Create the VM with the new configuration
+
+    $ vagrant up

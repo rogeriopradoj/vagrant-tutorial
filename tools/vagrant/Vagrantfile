@@ -88,7 +88,11 @@ Vagrant::Config.run do |config|
     chef.add_recipe("project")
 
     # You may also specify custom JSON attributes:
-    # chef.json = { :mysql_password => "foo" }
+    chef.json = {
+      :mysql => {
+        :server_root_password => "root"
+      }
+    }
   end
 
   # Enable provisioning with chef server, specifying the chef server URL,
