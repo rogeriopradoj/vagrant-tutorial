@@ -17,3 +17,13 @@ The directories in this tutorial repository represent a standard structure for c
 Install vagrant
 
     $ sudo gem install vagrant
+    
+## Exercise 2
+
+Add a base box to your system
+
+    $ vagrant box add Ubuntu-11.10 http://timhuegdon.com/vagrant-boxes/ubuntu-11.10.box
+
+List the available local boxes
+
+    $ vagrant box list
