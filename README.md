@@ -77,3 +77,9 @@ Create your VM again
 Confirm if apache is still available
 
     http://192.168.33.10
+    
+## Exercise 6
+
+Reload your VM
+
+    $ vagrant reload
