@@ -33,3 +33,9 @@ List the available local boxes
 Initialize your vagrant project with the correct base box
 
     $ vagrant init [local_box_name]
+    
+## Exercise 4
+
+Start your VM
+
+    $ vagrant up
