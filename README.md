@@ -89,3 +89,10 @@ Reload your VM
 Reload your VM
 
     $ vagrant reload
+
+## Exercise 8
+
+Provision your VM
+
+    $ vagrant provision
+
