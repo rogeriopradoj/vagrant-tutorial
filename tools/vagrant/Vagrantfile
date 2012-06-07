@@ -57,6 +57,7 @@ Vagrant::Config.run do |config|
       chef.cookbooks_path = "./chef/cookbooks"
       chef.add_recipe("apt")
       chef.add_recipe("apache2")
+      chef.add_recipe("mysql")
       chef.add_recipe("php")
       chef.add_recipe("project")
     end
@@ -96,7 +97,7 @@ Vagrant::Config.run do |config|
     db_config.vm.provision :chef_solo do |chef|
       chef.cookbooks_path = "./chef/cookbooks"
       chef.add_recipe("apt")
-      chef.add_recipe("mysql")
+      chef.add_recipe("mysql::server")
 
       # You may also specify custom JSON attributes:
       chef.json = {
