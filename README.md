@@ -105,3 +105,13 @@ Destroy your VM
 Create the VM with the new configuration
 
     $ vagrant up
+    
+## Exercise 10
+
+Create VMs
+
+    $ vagrant up
+
+SSH into a box
+
+    $ vagrant ssh web
