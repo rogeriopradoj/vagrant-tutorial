@@ -11,3 +11,7 @@ By the end of the tutorial delegates will have created a fully automated process
 ## File Structures
 
 The directories in this tutorial repository represent a standard structure for combining Vagrant and Chef Solo within your development practices. Each directory contains a README.md file that describes the purpose of the directory and what it will likely contain.
+
+# Tutorial
+
+The code and configuration files for each exercise for the tutorial session will be built up in separate branches of the repository. To follow along you will need to checkout the code and configuration branches and run the commands from this `README.md` as it is completed in the branches.
