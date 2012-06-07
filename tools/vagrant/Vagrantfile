@@ -83,6 +83,7 @@ Vagrant::Config.run do |config|
     # chef.add_role "web"
     chef.add_recipe("apt")
     chef.add_recipe("mysql")
+    chef.add_recipe("mysql::server")
     chef.add_recipe("apache2")
     chef.add_recipe("php")
     chef.add_recipe("project")
@@ -91,6 +92,9 @@ Vagrant::Config.run do |config|
     chef.json = {
       :mysql => {
         :server_root_password => "root"
+      },
+      :apache => {
+        :contact => 'astead@inviqa.com'
       }
     }
   end
