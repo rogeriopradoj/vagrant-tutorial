@@ -72,7 +72,7 @@ Access the default apache site in your hosts browser
 
 Destroy your VM
 
-    $ vagrant up
+    $ vagrant destroy
 
 Create your VM again
 
